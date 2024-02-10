@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book-list-container {
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+  justify-content: space-between;
+  background-color:  #9b5d73;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100vw;
+  padding: 10px 8vw;
+  margin-bottom: 40px;
+  background-color: #fff1c5;
+}
+
+h2 {
+  font-size: 3vw;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: #283644;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  padding: 10px;
+  width: 95%;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #283644;
+}
+
+.register-button {
+  background-color: #283644;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #9b5d73;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  max-width: 70vw;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  background-color: #c38b8b;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-thumbnail {
+  max-height: 100%;
+}
+
+.book-details {
+  margin-top: 10px;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.book-authors {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.book-rating {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
